@@ -1,5 +1,6 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from torch import nn
 
 if __name__ == "__main__":
 
@@ -41,7 +42,10 @@ if __name__ == "__main__":
 
     # outputs 包含：
     # logits: [batch, seq_len, vocab_size]
-    logits = outputs.logits
+    # logits = outputs.logits
+    logits = outputs[0]
+    # mx.argmax(logits[:, -1, :], axis=-1)
+    print("")
 
     # 取最后一个 token 的 logits（下一步的预测）
     next_token_logits = logits[:, -1, :]
@@ -68,3 +72,5 @@ if __name__ == "__main__":
     result = tokenizer.decode(generated[0])
     print("最终生成结果：")
     print(result)
+
+    nn.Module
