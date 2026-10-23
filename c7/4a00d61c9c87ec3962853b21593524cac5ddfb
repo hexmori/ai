@@ -1,0 +1,16 @@
+dflash_demo/selectot_demo.py
+  h_ba2f2ef8a92d53 1-153
+dflash_demo/base.py
+  h_ba2f2ef8a92d53 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "c74a00d61c9c87ec3962853b21593524cac5ddfb",
+  "prompts": {},
+  "humans": {
+    "h_ba2f2ef8a92d53": {
+      "author": "yangyang <yangy129@chinatelecom.cn>"
+    }
+  }
+}
