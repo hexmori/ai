@@ -1,5 +1,5 @@
 import torch
-
+#a7d99e64033904a5e2caa7a7af07ad4d4f1c8ea7
 if __name__ == "__main__":
     """
     它的核心作用是：你告诉它你想操作什么设备（比如 "cuda"、"xpu"、"npu"），
