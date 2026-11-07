@@ -3,7 +3,6 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from torch import nn
 
 if __name__ == "__main__":
-
     # 1. 加载 tokenizer（分词器）
     # model_name = "meta-llama/Llama-2-7b-chat-hf"
     model_name = "facebook/opt-125m"
