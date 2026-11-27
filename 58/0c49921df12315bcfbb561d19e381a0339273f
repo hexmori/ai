@@ -1,0 +1,18 @@
+bench/adp_dynamic.py
+  h_ba2f2ef8a92d53 1-279
+base/bisect_demo.py
+  h_ba2f2ef8a92d53 1-6
+bench/adp_controlled.py
+  h_ba2f2ef8a92d53 1-266
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "580c49921df12315bcfbb561d19e381a0339273f",
+  "prompts": {},
+  "humans": {
+    "h_ba2f2ef8a92d53": {
+      "author": "yangyang <yangy129@chinatelecom.cn>"
+    }
+  }
+}
